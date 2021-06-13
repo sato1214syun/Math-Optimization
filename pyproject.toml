@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "math-optimization"
+version = "0.1.0"
+description = ""
+authors = ["sato1214syun <sato1214syun@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+notebook = "^6.4.0"
+PuLP = "^2.4"
+numpy = "^1.20.3"
+pandas = "^1.2.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
