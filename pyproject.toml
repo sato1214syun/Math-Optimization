@@ -6,10 +6,10 @@ authors = ["sato1214syun <sato1214syun@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-notebook = "^6.4.0"
 PuLP = "^2.4"
 numpy = "^1.20.3"
 pandas = "^1.2.4"
+jupyterlab = "^3.0.16"
 
 [tool.poetry.dev-dependencies]
 
